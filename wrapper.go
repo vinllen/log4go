@@ -14,7 +14,7 @@ var (
 )
 
 func init() {
-	Global = NewDefaultLogger(DEBUG)
+	Global = NewDefaultLogger(CRITICAL)
 }
 
 // Wrapper for (*Logger).LoadConfiguration
